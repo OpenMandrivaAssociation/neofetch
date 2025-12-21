@@ -9,6 +9,7 @@ Source0:	https://github.com/dylanaraps/neofetch/archive/%{version}/%{name}-%{ver
 #Patch0:		neofetch-fix-layout.patch
 BuildArch: 	noarch
 
+BuildRequires:	make
 %description
 Neofetch is a CLI system information tool written in BASH. 
 Neofetch displays information about your system next to an 
